@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>achat</title>
+ <link rel="stylesheet" href={{ asset("Style/style.css") }}>
+</head>
+<header>
+  <div class="logo">  
+      <p><span>luxe</span>cars</p> 
+  </div>
+  <ul class="menu">
+      <li> <a href="/pages"> Acceuil</a></li>
+      <li> <a href="/proj">Achat</a></li> 
+      <li> <a href="/services">Services</a></li>
+      <li> <a href="/contact">Contact</a></li>
+  </ul> 
+</header>
+
+
+<body>
+
+  <div class="container">
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h2>Achat</h2>
+    <div class="form-group">
+      <label for="username">Nom d'utilisateur:</label>
+      <input type="text" id="username" placeholder="Entrez votre nom d'utilisateur">
+    </div>
+    <div class="form-group">
+      <label for="password">Mot de passe:</label>
+      <input type="password" id="password" placeholder="Entrez votre mot de passe">
+    </div>
+    <div class="form-group">
+      <button onclick="login()">Achat</button>
+    </div>
+  </div>
+  <div class="container">
+    <video autoplay loop muted id="background-video">
+      <source src={{ asset('image/voit.mp4')}} type="video/mp4">
+      Votre navigateur ne prend pas en charge la balise vidéo.
+    </video>
+  </div>
+  
+</body>
+</html>

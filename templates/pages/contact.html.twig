@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={{ asset("Style/style.css") }}>
+    <title>contact</title>
+</head>
+<header>
+    <div class="logo">  
+        <p><span>luxe</span>cars</p> 
+    </div>
+      <ul class="menu">
+      <li> <a href="/pages"> Acceuil</a></li>
+      <li> <a href="/proj">Achat</a></li> 
+      <li> <a href="/services">Services</a></li>
+      <li> <a href="/contact">Contact</a></li>
+  </ul>  
+  </header>
+<body>
+    <section id="contact">
+        <h1 class="title">Contact</h1>
+        <div class="localisation-contact-div">
+            <div class="localisation">
+                <h3>Notre Adresse</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914406081484!2d2.2922926152016645!3d48.
+                85837360866273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!
+                1sfr!2stn!4v1674156388509!5m2!1sfr!2stn" width="600" 
+                height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-contact">
+         
+            <form action="#" onsubmit="envoyerMessage(event)">
+                <h3> Envoyer un message</h3>
+                <input type="text" placeholder="Nom" id="nom" required>
+                <input type="email" placeholder="adresse mail" id="email">
+                <input type="text" placeholder="objet" id="objet">
+                <textarea name="" id="message" cols="10" placeholder="message"></textarea>
+                <button class="beb" onclick="Envoyer()">Envoyer </button>
+                </form>
+                  
+            </div>
+        </div>
+    </section>
+</body>
+</html>
